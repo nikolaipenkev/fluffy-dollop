@@ -10,6 +10,7 @@ test.describe('Contanct page form & elements' , () => {
         await expect(page).toHaveURL(/contact/i)
 
         const contact = new ContactPage(page);
+        await expect(contact.name).toBeVisible();
         await expect(contact.email).toBeVisible();
         await expect(contact.message).toBeVisible();
         await expect(contact.sendBtn).toBeVisible();
