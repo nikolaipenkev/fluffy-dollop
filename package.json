@@ -1,8 +1,13 @@
 {
   "name": "fluffy-dollop",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {},
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "codegen": "playwright codegen https://www.leadconsult.eu"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nikolaipenkev/fluffy-dollop.git"
@@ -17,6 +22,8 @@
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.55.0",
-    "@types/node": "^24.3.0"
+    "@types/node": "^24.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
   }
 }
