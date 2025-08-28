@@ -40,7 +40,6 @@ export class HeaderPage {
     async goToOurCompany() {
         await this.openAboutDropdown();
         await this.ourCompany.waitFor({ state: 'visible' });
-        await this.ourCompany.waitFor({ state: 'attached' });
         await this.ourCompany.click({ force: true });
     }
 
