@@ -7,7 +7,7 @@ test.describe('Contanct page form & elements' , () => {
         const header = new HeaderPage(page);
         await header.goToHome();
         await header.goToContact();
-        await expect(page).toHaveURL(/contact/i)
+        await expect(page).toHaveURL(/contact/i);
 
         const contact = new ContactPage(page);
         await expect(contact.name).toBeVisible();
