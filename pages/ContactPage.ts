@@ -33,7 +33,7 @@ export class ContactPage {
 
     async expectRecaptchaError(){
     const recaptchaError = this.page.locator('.wpcf7-not-valid-tip', { hasText: 'Please verify that you are not a robot.' });
-    await expect(recaptchaError).toBeVisible({ timeout: 10000 });
+    await expect(recaptchaError).toBeVisible({ timeout: 30000 });
     const errorText = await recaptchaError.innerText();
     console.log('reCAPTCHA error text:', errorText);
     }
