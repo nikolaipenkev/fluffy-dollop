@@ -20,7 +20,7 @@ export class HeaderPage {
     }
 
     async goToHome() {
-        await this.page.goto('/');
+    await this.page.goto('https://www.leadconsult.eu/');
     }
 
     async openAboutDropdown() {
@@ -38,14 +38,12 @@ export class HeaderPage {
     }
 
     async goToOurCompany() {
-        await this.openAboutDropdown();
-        await this.ourCompany.hover();
-        await this.ourCompany.click({ force: true });
+    await this.openAboutDropdown();
+    await this.ourCompany.click({ force: true });
     }
 
     async goToCoreValues() {
-        await this.openAboutDropdown();
-        await this.coreValues.hover();
-        await this.coreValues.click({ force: true });
+    await this.openAboutDropdown();
+    await this.coreValues.click({ force: true });
     }
 }
