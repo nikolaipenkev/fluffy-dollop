@@ -8,7 +8,7 @@ test.describe('About Us dropdown pages', () => {
         const about = new AboutPage(page);
         await header.goToHome();
         await header.goToOurCompany();
-    await expect(page).toHaveURL(/about-us/i);
+        await expect(page).toHaveURL(/about-us/i);
         await about.validateTeamAndConsulting();
     });
 
