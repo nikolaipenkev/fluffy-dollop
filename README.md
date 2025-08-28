@@ -6,8 +6,6 @@ fluffy-dollop/
 │   ├── AboutPage.ts         # About Us page object and content validation
 │   ├── ContactPage.ts       # Contact form page object and reCAPTCHA validation
 │   ├── HeaderPage.ts        # Header navigation page object
-│   └── base/
-│       └── BasePage.ts      # Base page object (shared logic)
 ├── tests/
 │   ├── about.spec.ts        # About Us dropdown and content tests
 │   ├── contact.spec.ts      # Contact page field presence tests
