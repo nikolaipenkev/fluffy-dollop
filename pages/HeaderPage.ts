@@ -20,13 +20,13 @@ export class HeaderPage {
     }
 
     async goToHome() {
-    await this.page.goto('/',{timeout: 10000});
+        await this.page.goto('/', { timeout: 10000 });
     }
 
     async openAboutDropdown() {
-    await this.about.hover({ force: true });
-    await this.ourCompany.waitFor({ state: 'visible' });
-    await this.coreValues.waitFor({ state: 'visible' });
+        await this.about.hover({ force: true });
+        await this.ourCompany.waitFor({ state: 'visible' });
+        await this.coreValues.waitFor({ state: 'visible' });
     }
 
     async goToServices() {
@@ -38,14 +38,14 @@ export class HeaderPage {
     }
 
     async goToOurCompany() {
-    await this.openAboutDropdown();
-    await this.ourCompany.waitFor({ state: 'visible' });
-    await this.ourCompany.waitFor({ state: 'attached' });
-    await this.ourCompany.click({ force: true });
+        await this.openAboutDropdown();
+        await this.ourCompany.waitFor({ state: 'visible' });
+        await this.ourCompany.waitFor({ state: 'attached' });
+        await this.ourCompany.click({ force: true });
     }
 
     async goToCoreValues() {
-    await this.openAboutDropdown();
-    await this.coreValues.click({ force: true });
+        await this.openAboutDropdown();
+        await this.coreValues.click({ force: true });
     }
 }
