@@ -66,7 +66,6 @@ This project contains automated UI tests for https://www.leadconsult.eu using Pl
 ## Notes
 - Tests are written in TypeScript and use Playwright's Page Object Model for maintainability.
 - All selectors and validations are tailored for the public Lead Consult website.
-- Cross-browser issues (e.g., Firefox) are handled in the test files where needed.
 
 ---
 For any questions or improvements, see the relevant spec and page object files listed above.
