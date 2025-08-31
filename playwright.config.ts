@@ -4,6 +4,7 @@ export default defineConfig({
   testDir: './tests',
   timeout: 30_000,
   expect: { timeout: 10_000 },
+  reporter: [['allure-playwright']],
   use: {
     baseURL: 'https://www.leadconsult.eu/',
     headless: true,
