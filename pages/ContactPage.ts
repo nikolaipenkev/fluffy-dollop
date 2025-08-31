@@ -1,4 +1,4 @@
-import {Page, Locator, expect} from '@playwright/test';
+import { Page, Locator, expect } from '@playwright/test';
 
 export class ContactPage {
     readonly page: Page;
@@ -8,7 +8,7 @@ export class ContactPage {
     readonly sendBtn: Locator;
     readonly recaptchaFrame: Locator;
 
-    constructor(page: Page){
+    constructor(page: Page) {
         this.page = page;
         this.name = page.getByRole('textbox', { name: 'Your Name*' }).first();
         this.email = page.getByRole('textbox', { name: 'Your Email*' }).first();
@@ -17,24 +17,22 @@ export class ContactPage {
         this.recaptchaFrame = page.locator('iframe[title*="recaptcha" i], div.g-recaptcha iframe').first();
     }
 
-    async fillForm(data: {name: string; email: string; message: string;}){
-    await this.name.fill(data.name);
-    await this.email.fill(data.email);
-    await this.message.fill(data.message);
+    async fillForm(data: { name: string; email: string; message: string; }) {
+        await this.name.fill(data.name);
+        await this.email.fill(data.email);
+        await this.message.fill(data.message);
     }
 
-    async submit(){
+    async submit() {
         await this.sendBtn.click()
     }
 
-    async expectRecaptchaPresent(){
-        await this.recaptchaFrame.waitFor({state : 'visible'})
+    async expectRecaptchaPresent() {
+        await this.recaptchaFrame.waitFor({ state: 'visible' })
     }
 
-    async expectRecaptchaError(){
-    const recaptchaError = this.page.locator('.wpcf7-not-valid-tip', { hasText: 'Please verify that you are not a robot.' });
-    await expect(recaptchaError).toBeVisible({ timeout: 30000 });
-    const errorText = await recaptchaError.innerText();
-    console.log('reCAPTCHA error text:', errorText);
+    async expectRecaptchaError() {
+        const recaptchaError = this.page.locator('.wpcf7-not-valid-tip', { hasText: 'Please verify that you are not a robot.' });
+        await expect(recaptchaError).toBeVisible({ timeout: 30000 });
     }
 }
