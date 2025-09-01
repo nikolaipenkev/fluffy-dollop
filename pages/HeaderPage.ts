@@ -45,6 +45,7 @@ export class HeaderPage {
 
     async goToCoreValues() {
         await this.openAboutDropdown();
+        await this.coreValues.waitFor({ state: 'visible' });
         await this.coreValues.click({ force: true });
     }
 }

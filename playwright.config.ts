@@ -4,6 +4,7 @@ export default defineConfig({
   testDir: './tests',
   timeout: 30_000,
   expect: { timeout: 10_000 },
+  retries: 2,
   reporter: [['list'], ['html']],
   use: {
     baseURL: 'https://www.leadconsult.eu/',
@@ -18,7 +19,8 @@ export default defineConfig({
     },
     {
       name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
+      use: { ...devices['Desktop Firefox'], viewport : { width: 1440, height: 900 },
+      
     },
     {
       name: 'webkit',
