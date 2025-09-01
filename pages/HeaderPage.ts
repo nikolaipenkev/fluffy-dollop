@@ -40,11 +40,11 @@ export class HeaderPage {
     async goToOurCompany() {
         await this.openAboutDropdown();
         await this.ourCompany.waitFor({ state: 'visible' });
-        await this.ourCompany.click();
+        await this.ourCompany.click({ force: true });
     }
 
     async goToCoreValues() {
         await this.openAboutDropdown();
-        await this.coreValues.click();
+        await this.coreValues.click({ force: true });
     }
 }
