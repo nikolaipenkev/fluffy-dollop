@@ -1,0 +1,247 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - text:       
+  - generic [ref=e2]:
+    - banner:
+      - generic [ref=e4]:
+        - link "LEAD Consult LEAD Consult" [ref=e6] [cursor=pointer]:
+          - /url: https://www.leadconsult.eu
+          - img "LEAD Consult" [ref=e7] [cursor=pointer]
+          - img "LEAD Consult" [ref=e8] [cursor=pointer]
+        - navigation [ref=e9]:
+          - generic [ref=e10]:
+            - list:
+              - listitem [ref=e11]:
+                - link "Home" [ref=e12] [cursor=pointer]:
+                  - /url: https://www.leadconsult.eu/
+              - listitem [ref=e13]:
+                - generic [ref=e14]: About us
+              - listitem [ref=e15]:
+                - link "Services" [ref=e16] [cursor=pointer]:
+                  - /url: https://www.leadconsult.eu/services/
+              - listitem [ref=e17]:
+                - link "Products" [ref=e18] [cursor=pointer]:
+                  - /url: https://www.leadconsult.eu/products/
+              - listitem [ref=e19]:
+                - link "Customers" [ref=e20] [cursor=pointer]:
+                  - /url: https://www.leadconsult.eu/customers/
+              - listitem [ref=e21]:
+                - link "Our Partners" [ref=e22] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e23]:
+                - link "Careers" [ref=e24] [cursor=pointer]:
+                  - /url: https://www.leadconsult.eu/careers/
+              - listitem [ref=e25]:
+                - link "Newsroom" [ref=e26] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e27]:
+                - link "Contact us" [ref=e28] [cursor=pointer]:
+                  - /url: https://www.leadconsult.eu/contact-us/
+    - article [ref=e32]:
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - generic [ref=e40]:
+            - generic [ref=e48]:
+              - heading "LEAD BY EXAMPLE" [level=1] [ref=e49]
+              - img [ref=e52]
+              - heading "The leading ETRMs, Energy Digitalization, and IT Integration company that helps you reach new heights." [level=1] [ref=e55]
+            - generic [ref=e64]:
+              - generic [ref=e65]: 
+              - link [ref=e66] [cursor=pointer]:
+                - /url: "#whoweare"
+          - img [ref=e68]
+        - generic [ref=e70]:
+          - generic [ref=e73]:
+            - generic [ref=e77]:
+              - heading "About us" [level=2] [ref=e78]
+              - generic [ref=e80]: A team of highly skilled business and technical consultants
+            - generic [ref=e84]:
+              - generic [ref=e88]:
+                - generic [ref=e92]:
+                  - generic [ref=e94]: 
+                  - generic [ref=e95]:
+                    - heading "A team of 80+ employees" [level=6] [ref=e96]
+                    - text: We are a group of highly skilled personnel based in Bulgaria, Germany, Kosovo and Spain.
+                - generic [ref=e101]:
+                  - generic [ref=e103]: 
+                  - generic [ref=e104]:
+                    - heading "ETRMs and Financial IT Experts" [level=6] [ref=e105]
+                    - text: We are European Know-how Leaders when it comes to Energy Risk Trading and Commodity Management Software, Software Development, and IT Integration.
+                - generic [ref=e110]:
+                  - generic [ref=e112]: 
+                  - generic [ref=e113]:
+                    - heading "Providing 4 core services around Europe" [level=6] [ref=e114]
+                    - text: We provide energy, financial, software development, and data integration services in multiple locations around Europe.
+              - link "More about us" [ref=e117] [cursor=pointer]:
+                - /url: https://www.leadconsult.eu/about-us/
+                - generic [ref=e118] [cursor=pointer]: More about us
+          - img [ref=e121]
+        - generic [ref=e130]:
+          - generic [ref=e131]:
+            - heading "OUR FIELDS OF EXPERTISE" [level=2] [ref=e132]
+            - generic [ref=e134]: We solve your IT and Business challenges in these sectors
+          - generic [ref=e139]:
+            - generic [ref=e142]:
+              - figure [ref=e144]:
+                - img "lead-consult_teaser_aboutus_industry_energy_422x211" [ref=e146]
+              - heading "ENERGY" [level=5] [ref=e150]:
+                - strong [ref=e152]: ENERGY
+            - generic [ref=e155]:
+              - figure [ref=e157]:
+                - img "lead-consult_teaser_aboutus_industry_software_422x211" [ref=e159]
+              - heading "SOFTWARE DEVELOPMENT" [level=5] [ref=e163]:
+                - strong [ref=e165]: SOFTWARE DEVELOPMENT
+            - generic [ref=e168]:
+              - figure [ref=e170]:
+                - img "lead-consult_teaser_aboutus_industry_banking_422x211" [ref=e172]
+              - heading "Finance" [level=5] [ref=e176]:
+                - strong [ref=e178]: Finance
+            - generic [ref=e181]:
+              - figure [ref=e183]:
+                - img "lead-consult_teaser_aboutus_industry_data_422x211" [ref=e185]
+              - heading "Data PROCESSING and Management" [level=5] [ref=e189]:
+                - strong [ref=e191]: Data PROCESSING and Management
+        - generic [ref=e192]:
+          - link "Our Services" [ref=e201] [cursor=pointer]:
+            - /url: https://www.leadconsult.eu/services/
+            - generic [ref=e202] [cursor=pointer]: Our Services
+          - img [ref=e205]
+        - generic [ref=e213]:
+          - generic [ref=e214]:
+            - heading "Latest news" [level=2] [ref=e215]
+            - generic [ref=e217]: Our newsroom
+          - generic [ref=e222]:
+            - generic [ref=e224]:
+              - link "Stefan Tashev, 5 Years of .NET, Architecture, and Brilliance at LEAD" [ref=e227] [cursor=pointer]:
+                - /url: https://www.leadconsult.eu/newsroom/stefan-tashev-lead-consult-dotnet-5-years/
+              - generic [ref=e231]:
+                - heading "Stefan Tashev, 5 Years of .NET, Architecture, and Brilliance at LEAD" [level=4] [ref=e233]
+                - text: 
+                - link "Read more" [ref=e235] [cursor=pointer]:
+                  - /url: https://www.leadconsult.eu/newsroom/stefan-tashev-lead-consult-dotnet-5-years/
+            - generic [ref=e237]:
+              - 'link "LEAD teambuilding in Burgas: strategy, coworking and connection by the sea" [ref=e240] [cursor=pointer]':
+                - /url: https://www.leadconsult.eu/newsroom/lead-teambuilding-in-burgas-strategy-coworking-and-connection-by-the-sea/
+              - generic [ref=e244]:
+                - 'heading "LEAD teambuilding in Burgas: strategy, coworking and connection by the sea" [level=4] [ref=e246]'
+                - text: 
+                - link "Read more" [ref=e248] [cursor=pointer]:
+                  - /url: https://www.leadconsult.eu/newsroom/lead-teambuilding-in-burgas-strategy-coworking-and-connection-by-the-sea/
+            - generic [ref=e250]:
+              - 'link "Scalable Integration in Energy Trading: Automation, Streaming & Middleware" [ref=e253] [cursor=pointer]':
+                - /url: https://www.leadconsult.eu/newsroom/scalable-integration-in-energy-trading-automation-streaming-middleware/
+              - generic [ref=e257]:
+                - 'heading "Scalable Integration in Energy Trading: Automation, Streaming & Middleware" [level=4] [ref=e259]'
+                - text: 
+                - link "Read more" [ref=e261] [cursor=pointer]:
+                  - /url: https://www.leadconsult.eu/newsroom/scalable-integration-in-energy-trading-automation-streaming-middleware/
+          - link "More News" [ref=e264] [cursor=pointer]:
+            - /url: https://www.leadconsult.eu/newsroom/category/articles/
+            - generic [ref=e265] [cursor=pointer]: More News
+        - generic [ref=e274]:
+          - generic [ref=e275]:
+            - generic [ref=e276]: Any Questions?
+            - generic [ref=e278]: Feel Free to ask!
+          - link "Contact us" [ref=e280] [cursor=pointer]:
+            - /url: https://www.leadconsult.eu/contact-us/
+            - generic [ref=e281] [cursor=pointer]: Contact us
+    - contentinfo [ref=e282]:
+      - generic [ref=e283]:
+        - generic [ref=e285]:
+          - generic [ref=e287]:
+            - complementary [ref=e288]
+            - complementary [ref=e289]:
+              - paragraph [ref=e291]:
+                - text: LEAD Consult is a dynamic, customer oriented company, specialized in providing business and IT consulting services in the energy and financial sectors, as well as in software development and IT outsourcing. Read more
+                - link "about us." [ref=e292] [cursor=pointer]:
+                  - /url: https://www.leadconsult.eu/about-us/
+          - complementary [ref=e295]:
+            - heading "FRANKFURT | GERMANY" [level=3] [ref=e296]
+            - generic [ref=e299]:
+              - generic [ref=e300]:
+                - generic [ref=e301]: ⌂
+                - generic [ref=e302]:
+                  - text: LEAD Consult LC GmbH
+                  - text: Römischer Ring 45
+                  - text: 60486 Frankfurt am Main
+                  - text: Germany
+              - generic [ref=e303]:
+                - generic [ref=e304]: 📞
+                - link "+49 (0) 176 62 66 14 44" [ref=e305] [cursor=pointer]:
+                  - /url: tel:004917662661444
+              - generic [ref=e306]:
+                - generic [ref=e307]: 📞
+                - link "+49 (0) 173 801 98 32" [ref=e308] [cursor=pointer]:
+                  - /url: tel:00491738019832
+              - generic [ref=e309]:
+                - generic [ref=e310]: ✉
+                - link "office@leadconsult.eu" [ref=e311] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e312] [cursor=pointer]: office@leadconsult.eu
+          - complementary [ref=e316]:
+            - heading "SOFIA HQ | BULGARIA" [level=3] [ref=e317]
+            - generic [ref=e320]:
+              - generic [ref=e321]:
+                - generic [ref=e322]: ⌂
+                - generic [ref=e323]:
+                  - text: LEAD Consult Ltd.
+                  - text: Office X, Building 2, Office 403&404
+                  - text: 51V Cherni Vrah blvd.
+                  - text: 1407 Sofia,
+                  - text: Bulgaria
+              - generic [ref=e324]:
+                - generic [ref=e325]: 📞
+                - link "+359 (0) 897 03 02 43" [ref=e326] [cursor=pointer]:
+                  - /url: tel:00359897030243
+              - generic [ref=e327]:
+                - generic [ref=e328]: ✉
+                - link "office@leadconsult.eu" [ref=e329] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e330] [cursor=pointer]: office@leadconsult.eu
+          - complementary [ref=e334]:
+            - heading "PLOVDIV | BULGARIA" [level=3] [ref=e335]
+            - generic [ref=e338]:
+              - generic [ref=e339]:
+                - generic [ref=e340]: ⌂
+                - generic [ref=e341]:
+                  - text: LEAD Consult Ltd.
+                  - text: 19-21 Raiko Daskalov str.
+                  - text: 4000 Plovdiv
+                  - text: Bulgaria
+              - generic [ref=e342]:
+                - generic [ref=e343]: 📞
+                - link:
+                  - /url: tel:004917662661444
+                - link "+359 (0) 87 92 78 672" [ref=e344] [cursor=pointer]:
+                  - /url: tel:+359 (0) 87 92 78 672
+              - generic [ref=e345]:
+                - generic [ref=e346]: ✉
+                - link "office@leadconsult.eu" [ref=e347] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e348] [cursor=pointer]: office@leadconsult.eu
+        - generic [ref=e351]:
+          - generic:
+            - complementary [ref=e352]:
+              - generic [ref=e353]:
+                - strong [ref=e354]:
+                  - link "View LEAD Consult profile on Ariba Discovery" [ref=e355] [cursor=pointer]:
+                    - /url: http://discovery.ariba.com/profile/AN01473860713
+                - strong [ref=e356]:
+                  - text: ©2025 LEAD CONSULT. All rights reserved.
+                  - link "Imprint and Privacy Policy" [ref=e357] [cursor=pointer]:
+                    - /url: https://www.leadconsult.eu/imprint-privacy-policy/
+            - complementary [ref=e358]:
+              - iframe [ref=e361]:
+                - generic [ref=f1e3]:
+                  - link [ref=f1e4] [cursor=pointer]:
+                    - /url: https://clutch.co/profile/lead-consult?utm_source=widget&utm_medium=1&utm_campaign=widget&utm_content=logo&utm_term=www.leadconsult.eu
+                  - generic [ref=f1e6]:
+                    - link "0.000000" [ref=f1e8] [cursor=pointer]:
+                      - /url: https://review.clutch.co/review/?provider_id=77847?utm_source=widget&utm_medium=1&utm_campaign=widget&utm_content=stars&utm_term=www.leadconsult.eu
+                      - generic [ref=f1e14] [cursor=pointer]: "0.000000"
+                    - link "Review us" [ref=f1e24] [cursor=pointer]:
+                      - /url: https://review.clutch.co/review/?provider_id=77847?utm_source=widget&utm_medium=1&utm_campaign=widget&utm_content=num_reviews&utm_term=www.leadconsult.eu
+            - complementary
+```
